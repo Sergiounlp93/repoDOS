@@ -21,4 +21,12 @@ palabras_texto = texto.split(' ')
 
 #buscando la palabra entre los elementos de la lista
 palabras_busqueda = [s for s in palabras_texto if busqueda in s]
-print(len(palabras_busqueda))
+cant=len(palabras_busqueda)
+"""
+UNA FORMA ES ASI
+print("Se encontro las siguientes ocurrencias"+ str(palabras_busqueda))
+print("la cantidad de veces que se encontro la palabra es "+ str(len(palabras_busqueda)) )
+"""
+#La otra forma es asi
+print(f"Ocurrencias en contradas: {palabras_busqueda}")
+print(f"cantidad encontrada {cant}")
